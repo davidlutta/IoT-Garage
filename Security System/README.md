@@ -1,8 +1,13 @@
-#Instructions
-1. Connect the temperature sensor to the board
-2. Connect the ESP32 board to your computer using the USB cable
-3. Open Thonny editor4. Ensure that board is connected to Thonny editor (On the bottom left there should be a CircuitPython device section)
-4. Open code.py file in the Github repo and paste into the editor
-5. Press Ctrl + S and save to the circuit device as code.py
-6. Download adafruit_bme680.mpy
-7. On the Thonny editor, on the file explorer navigate to the dowloaded file, right click it and select upload to the micropython device
+# Instructions
+
+| Arduino  | Ultrasonic Sensor  |
+|---|---|
+| 10  | Trig Pin  |
+|  9 | Echo Pin  |
+| GND  | GND  |
+| 5V | VCC |
+1. Connect the ultrasonic sensor the breadboard
+2. Connect LED to breadboard
+Long end of the LED is `positive` short end is `negative`
+3. Create new Platform IO project
+4. Select `Arduino Uno Project`
